@@ -1,0 +1,36 @@
+.headFootColors
+{
+    background: #4267b2;
+    color: #fff;;
+}
+.header
+{
+    @extend .headFootColors;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    text-align: center; 
+}
+.footer{
+    @extend .headFootColors;
+}
+.container
+{
+    margin-top:75px;
+}
+.article
+{
+    box-shadow: 1px 1px 5px #888888;
+    margin:25px;
+    padding:10px;
+    background: #fff;   
+}
+
+body{
+    background: #e9ebee
+}
+
+li{
+    list-style-type: none
+}
